@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="../js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>商品详情页</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/wares.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cssreset.css"/>
+		<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header" style="background-image: none;">
+			<div class="container con">
+				<div class="dropdown">
+				  <button type="button" class="button">
+				  	<span class="sr-only">Toggle navigation</span>
+				  	<span class="icon-bar"></span>
+				  	<span class="icon-bar"></span>
+				  	<span class="icon-bar"></span>
+				  </button>
+				  <ul class="dropdown-menu xiala">
+				  	<li><a href="#">首页</a></li>
+					<li role="separator" class="divider"></li>
+				  	<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">发现<span class="caret"></span></a>
+				  	  <ul class="dropdown-menu">
+						  <li><a href="#">作品</a></li>
+						  <li><a href="#">文章</a></li>
+						  <li><a href="#">活动</a></li>
+						  <li><a href="#">设计大赛</a></li>
+						  <li><a href="#">设计团队</a></li>
+						  <li class="divider"></li>
+				  	  </ul>
+				  	</li>
+				  	<li role="separator" class="divider"></li>
+				  	<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">学习<span class="caret"></span></a>
+				  	  <ul class="dropdown-menu">
+				  		  <li><a href="#">教程</a></li>
+				  		  <li><a href="#">专题</a></li>
+				  		  <li><a href="#">书籍</a></li>
+				  		  <li><a href="#">UTalk</a></li>
+				  		  <li><a href="copy.html">每周临摹</a></li>
+				  		  <li class="divider"></li>
+				  	  </ul>
+				  	</li>
+					<li role="separator" class="divider"></li>
+				  	<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">培训<span class="caret"></span></a>
+				  	  <ul class="dropdown-menu">
+				  		  <li><a href="#">线下培训</a></li>
+				  		  <li><a href="#">线上课程</a></li>
+				  		  <li class="divider"></li>
+				  	  </ul>
+				  	</li>
+					<li role="separator" class="divider"></li>
+				  	<li><a href="#">榜单</a></li>
+					<li role="separator" class="divider"></li>
+				  	<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">更多<span class="caret"></span></a>
+				  	  <ul class="dropdown-menu">
+				  		  <li><a href="#">课程</a></li>
+				  		  <li><a href="#">招聘</a></li>
+				  		  <li><a href="#">话题</a></li>
+				  		  <li><a href="#">字库</a></li>
+				  		  <li><a href="#">工具</a></li>
+						  <li><a href="#">公众号联盟</a></li>
+						  <li><a href="#">UXDC</a></li>
+				  		  <li class="divider"></li>
+				  	  </ul>
+				  	</li>
+					<li role="separator" class="divider"></li>
+				  </ul>
+				</div>
+				<a href="#"><img src="../imgaes/uilogo.jpg"></a>
+				<div class="head-left">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="#">发现 &nbsp;<i></i></a></li>
+						<li><a href="#">学习 &nbsp;<i></i></a></li>
+						<li><a href="#">培训 &nbsp;<i></i></a></li>
+						<li><a href="html/list.html">榜单</a></li>
+						<li><a href="#">更多 &nbsp;<i></i></a></li>
+					</ul>
+					<div class="discover">
+						<p><a href="#">作品</a></p>
+						<p><a href="#">文章</a></p>
+						<p><a href="#">活动</a></p>
+						<p><a href="#">设计大赛</a></p>
+						<p><a href="#">设计团队</a></p>
+					</div>
+					<div class="learn">
+						<p><a href="#">教程</a></p>
+						<p><a href="#">专题</a></p>
+						<p><a href="#">书籍</a></p>
+						<p><a href="#">UTalk</a></p>
+						<p><a href="html/copy.html">每周临摹</a></p>
+					</div>
+					<div class="train">
+						<p><a href="#">线下培训</a></p>
+						<p><a href="#">线上课程</a></p>
+					</div>
+					<div class="more">
+						<p><a href="#">课程</a></p>
+						<p><a href="#">招聘</a></p>
+						<p><a href="#">话题</a></p>
+						<p><a href="#">字库</a></p>
+						<p><a href="#">工具</a></p>
+						<p><a href="#">公众号联盟</a></p>
+						<p><a href="#">UXDC</a></p>
+					</div>
+				</div>
+				
+				<div class="head-right">
+					<div class="search"><i class="glyphicon glyphicon-search"></i></div>
+					<div class="cloud"><i class="glyphicon glyphicon-cloud"></i></div>
+					<div class="login"><i class="glyphicon glyphicon-user"></i>登陆</div>
+				</div>
+				<div class="cloud_top">
+						<p><a href="#"><i class="glyphicon glyphicon-floppy-open"></i>上传作品</a></p>
+						<p><a href="#"><i class="glyphicon glyphicon-floppy-open"></i>上传经验</a></p>
+						<p><a href="#"><i class="glyphicon glyphicon-floppy-open"></i>上传即刻</a></p>
+				</div>
+				
+				<div class="searchDiv">
+					<div class="container">
+						<div class="sDiv_left">
+							<p><a href="#">查看全部热门榜单 > </a></p>
+							<div class="hotPic">
+								<div class="hotPic_one">
+									<div class="row">
+									  <!-- <div class="col-sm-6 col-md-4"> -->
+										<div class="thumbnail wHot">
+										  <img src="../imgaes/search01.jpg" alt="...">
+										  <div class="caption">
+											<h3>作品集2019</h3>
+											<p><i class="glyphicon glyphicon-fire"></i>182.0</p>
+										  </div>
+										</div>
+									  <!-- </div> -->
+									</div>
+								</div>
+								<div class="hotPic_two">
+									<div class="row">
+									  <!-- <div class="col-sm-6 col-md-4"> -->
+										<div class="thumbnail wHot">
+										  <img src="../imgaes/seach02.jpg" alt="...">
+										  <div class="caption">
+											<h3>花瓣--REDESIGN</h3>
+											<p><i class="glyphicon glyphicon-fire"></i>152.7</p>
+											</div>
+										</div>
+									  <!-- </div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="sDiv_right">
+							<div class="sD_top">
+								<div>
+									<a href="#" class="sD_top_show">作品</a>
+									<a href="#">文章</a>
+									<a href="#">源文件</a>
+									<a href="#">设计师</a>
+									<a href="#">活动</a>
+									<a href="#">团队</a>
+								</div>
+								<div></div>
+								<div></div>
+							</div>
+							<div class="sD_center">
+								<input type="text" name="" id="inp_serch" placeholder="请输入您要查找的内容"><input type="submit" name="" id="inp_sub" value="搜索" />
+							</div>
+							<div class="sD_buttom">
+								<a href="#">AE</a>
+								<a href="#">作品集</a>
+								<a href="#">icon</a>
+								<a href="#">logo</a>
+								<a href="#">app</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="container">
+				<div class="content_wei">
+					<div class="main_left">
+						<div class="mainLeft_top">
+							<div class="mainLeft_left">
+								<h1 class="ah1">go to the moon / 去月球</h1>
+								<div class="mainLeftContent">
+									<span>原创作品</span>
+									<span>分类 :</span>
+									<a href="#">其他设计</a>
+									<span>版权 :</span>
+									<i class="glyphicon glyphicon-copyright-mark"></i>
+									<i class="glyphicon glyphicon-registration-mark"></i>
+									<i class="glyphicon glyphicon-registration-mark"></i>
+								</div>
+								<div class="mainLeftButtom">
+									<span><i class="glyphicon glyphicon-eye-open"></i> 5529</span>
+									<span><i class="glyphicon glyphicon-star"></i> 39</span>
+									<span><i class="glyphicon glyphicon-leaf"></i> 178</span>
+									<span><i class="glyphicon glyphicon-comment"></i> 54</span>
+									<span><i class="glyphicon glyphicon-time"></i> 2019-08-15</span>
+								</div>
+							</div>
+							<div class="mainLeft_right">
+								<i class="glyphicon glyphicon-fire"></i>
+								<span><i>67.7</i></span>
+							</div>
+							<div class="star">
+								<img src="../imgaes/tag-star1.png" >
+							</div>
+						</div>
+						<div class="mainLeft_center">
+							<div class="pic">
+								<a href="#"><img src="../imgaes/moon01.jpg"></a>
+								<a href="#"><img src="../imgaes/moon02.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon03.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon04.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon05.gif" ></a>
+								<a href="#"><img src="../imgaes/copy06.png" ></a>
+								<a href="#"><img src="../imgaes/moon07.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon08.gif" ></a>
+								<a href="#"><img src="../imgaes/moon09.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon10.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon11.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon12.gif" ></a>
+								<a href="#"><img src="../imgaes/moon13.gif" ></a>
+								<a href="#"><img src="../imgaes/moon14.gif" ></a>
+								<a href="#"><img src="../imgaes/moon15.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon16.jpg" ></a>
+								<a href="#"><img src="../imgaes/moon17.gif" ></a>
+								<a href="#"><img src="../imgaes/moon18.jpg" ></a>
+							</div>
+						</div>
+						<ul class="leaf">
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> 平面</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> Illustrator</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> ui</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> AE</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> 插画</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> 包装</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> 中秋</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> 月饼包装</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> 科幻</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-leaf"></i><span> 机械</span></a></li>
+							<li><span><i class="glyphicon glyphicon-time">创建于</i>2019-08-15</span></li>
+						</ul>
+						<div class="work_buttom">
+							<div class="share">
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+								<a href="#"></a>
+							</div>
+							<div class="work_zan">
+								<div class="liu">
+									<img src="../imgaes/zan.png" >
+								</div>
+							</div>
+							<div class="colect">
+								
+							</div>
+						</div>
+					</div>
+					<div class="main_right">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/wares.js" type="text/javascript" charset="utf-8"></script>
+</html>

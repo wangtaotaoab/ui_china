@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="../js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>login</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<script src="../js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wwrap">
+			<div class="wlogin">
+				<div class="head-logo">
+					<img src="../imgaes/head-logo.png" >
+				</div>
+				<div class="change_login">
+					<p class="account_number" id="change_show">账号登陆</p>
+					<p class="massage">短信登陆</p>
+				</div>
+				<div class="form1">
+					<p class="p_input pos">
+						<!-- <label for="num">手机号/用户名/邮箱</label> -->
+						<input type="text" id="num" value="" placeholder="手机号/用户名/邮箱"/>
+					</p>
+					<p class="p_input pos">
+						<!-- <label for="pass">请输入密码</label> -->
+						<input type="password" id="pass" autocomplete="new-password" placeholder="请输入密码"/>
+					</p>
+					<p class="p_input pos hide new-passwordPic">
+						<input type="text" id="pass_pic" autocomplete="new-password" placeholder="请输入图形验证码"/>
+					</p>
+					<p class="p_input pos code hide">
+						<!-- <label for="veri">请输入验证码</label> -->
+						<input type="text" name="" id="veri" value="" placeholder="请输入验证码	"/>
+					</p>
+				</div>
+				<div class="form2 hide">
+					
+				</div>
+				<div class="r_forget">
+					<a href="#">忘记密码</a>
+					<a href="#" class="forgetPas">账号注册</a>
+				</div>
+				<form action="" method="get" class="wcheckbox hide">
+					<label><input type="checkbox" name="xieyi" id="wcheckbox" checked=""  value="" /></label>
+					<span>我以阅读并接受<a href="#">《版权声明》</a>和<a href="#">《隐私保护》</a></span>
+				</form>
+				<button type="button" class="login_btn">登录</button>
+				<input type="button" class="logon_btn hide" value="注册"></input>
+				<div class="haven hide">
+					<p>已有账号，<a href="#" class="returnLogin">马上登录</a></p>
+				</div>
+				<div class="third_part">
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+				<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+			</div>
+		</div>
+	</body>
+</html>

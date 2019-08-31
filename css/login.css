@@ -1,0 +1,310 @@
+html{
+	height: 100%;
+}
+body{
+	background-image: url(../imgaes/login.jpg);
+	background-size:100% 100% ;
+}
+
+
+@media screen and (min-width: 767px){
+	/* 登陆界面 */
+	.wlogin{
+		position: relative;
+		width: 460px;
+		background-color: white;
+		border-radius: 10px;
+		margin: 150px auto;
+		padding: 65px 20px 50px 20px;
+	}
+	.head-logo{
+		position: absolute;
+		top: -47px;
+		left: 50%;
+		margin-left: -114px;
+	}
+	.change_login p{
+		display: inline-block;
+		cursor: pointer;
+		margin-left: 95px;
+		font-size: 16px;
+		color: #8C8C8C;
+	}
+	#change_show{
+		color: #3498db;
+	}
+	/* label{
+		font-size: 14px;
+		position: absolute;
+		display: inline-block;
+		color: #cacaca;
+	} */
+	.form1 p{
+		padding: 10px 40px 10px;
+	}
+	.p_input input{
+		width: 340px;
+		height: 44px;
+		font-size: 15px;
+		border: 1px solid transparent;
+		border-bottom: 1px solid #CCCCCC;
+		outline: none;
+	}
+	.form1 .new-passwordPic #pass_pic{
+		background-image: url(../imgaes/verifyCode.png);
+		background-repeat: no-repeat;
+		background-size: 100px 50px;
+		background-position: 245px -10px;
+	}
+	/* 忘记密码 */
+	.r_forget{
+		overflow: hidden;
+		padding: 5px 40px 5px;
+	}
+	.r_forget a{
+		display: inline-block;
+		color: dimgrey;
+		text-decoration: none;
+	}
+	.r_forget a:nth-child(1){
+		float: right;
+	}
+	/* 复选按钮 */
+	.wcheckbox{
+		padding-left: 40px;
+		font-size: 16px;
+		color: darkgrey;
+	}
+	.wcheckbox input{
+		transform: scale(1.2,1.2);
+	}
+	.wcheckbox a{
+		text-decoration: none;
+	}
+	/* 登陆按钮 */
+	.login_btn,.logon_btn{
+		width: 340px;
+	    font-size: 18px;
+	    font-weight: bold;
+	    height: 50px;
+	    line-height: 50px;
+	    text-align: center;
+	    margin: 20px auto;
+	    display: block;
+	    border-radius: 5px;
+	    cursor: pointer;
+		outline: none;
+	}
+	.login_btn{
+		color: #a0a0a0;
+		background-color: #e5e5e5;
+	}
+	/* 注册按钮 */
+	.logon_btn{
+		color: white;
+		background-color: #3498db;
+	}
+	.change_logon{
+		background-color: #CCC;
+		cursor: auto;
+	}
+	/* 已有账号,马上登陆 */
+	.haven{
+		width: 135px;
+		padding: 10px 0px;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	.haven a{
+		text-decoration: none;
+	}
+	/* 微信 微博 QQ小图标 */
+	.third_part{
+		width: 400px;
+	    margin: 0 auto;
+	    display: flex;
+	    justify-content: space-around;
+	}
+	.third_part a{
+		font-size: 40px;
+		color: #e5e5e5;
+		background-color: #CCCCCC;
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		vertical-align: middle;
+		border-radius: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.third_part a:nth-child(1){
+		background-image: url(../imgaes/qq.png);
+	}
+	.third_part a:nth-child(1):hover{
+		background-color: #3498db;
+	}
+	.third_part a:nth-child(2){
+		background-image: url(../imgaes/wechat.png);
+	}
+	.third_part a:nth-child(2):hover{
+		background-color: #609700;
+	}
+	.third_part a:nth-child(3){
+		background-image: url(../imgaes/weibo.png);
+	}
+	.third_part a:nth-child(3):hover{
+		background-color: #d02200;
+	}
+	.third_part a img{
+		width: 30px;
+	}
+}
+
+
+ @media screen and (max-width:767px) {
+	/* 登陆界面 */
+	.wlogin{
+		position: relative;
+		width: 370px;
+		background-color: white;
+		border-radius: 10px;
+		margin: 150px auto;
+		padding: 65px 20px 10px 20px;
+	}
+	.head-logo{
+		position: absolute;
+		top: -47px;
+		left: 50%;
+		margin-left: -114px;
+	}
+	.change_login p{
+		display: inline-block;
+		cursor: pointer;
+		margin-left: 80px;
+		font-size: 16px;
+		color: #8C8C8C;
+	}
+	#change_show{
+		color: #3498db;
+	}
+	.form1 p{
+		padding: 10px;
+	}
+	.p_input input{
+		width: 340px;
+		height: 44px;
+		font-size: 15px;
+		border: 1px solid transparent;
+		border-bottom: 1px solid #CCCCCC;
+		outline: none;
+	}
+	.form1 .new-passwordPic #pass_pic{
+		background-image: url(../imgaes/verifyCode.png);
+		background-repeat: no-repeat;
+		background-size: 100px 50px;
+		background-position: 245px -10px;
+	}
+	/* 忘记密码 */
+	.r_forget{
+		overflow: hidden;
+		padding: 5px 40px 5px;
+	}
+	.r_forget a{
+		display: inline-block;
+		color: dimgrey;
+		text-decoration: none;
+	}
+	.r_forget a:nth-child(1){
+		float: right;
+	}
+	/* 复选按钮 */
+	.wcheckbox{
+		padding-left: 40px;
+		font-size: 16px;
+		color: darkgrey;
+	}
+	.wcheckbox input{
+		transform: scale(1.2,1.2);
+	}
+	.wcheckbox a{
+		text-decoration: none;
+	}
+	/* 登陆按钮 */
+	.login_btn,.logon_btn{
+		width: 340px;
+	    font-size: 18px;
+	    font-weight: bold;
+	    height: 50px;
+	    line-height: 50px;
+	    text-align: center;
+	    margin: 20px auto;
+	    display: block;
+	    border-radius: 5px;
+	    cursor: pointer;
+		outline: none;
+	}
+	.login_btn{
+		color: #a0a0a0;
+		background-color: #e5e5e5;
+	}
+	/* 注册按钮 */
+	.logon_btn{
+		color: white;
+		background-color: #3498db;
+	}
+	.change_logon{
+		background-color: #CCC;
+		cursor: auto;
+	}
+	/* 已有账号,马上登陆 */
+	.haven{
+		width: 135px;
+		padding: 10px 0px;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	.haven a{
+		text-decoration: none;
+	}
+	/* 微信 微博 QQ小图标 */
+	.third_part{
+		width: 370px;
+	    margin: 0 auto;
+	    display: flex;
+	    justify-content: space-around;
+	}
+	.third_part a{
+		font-size: 40px;
+		color: #e5e5e5;
+		background-color: #CCCCCC;
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		vertical-align: middle;
+		border-radius: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.third_part a:nth-child(1){
+		background-image: url(../imgaes/qq.png);
+	}
+	.third_part a:nth-child(1):hover{
+		background-color: #3498db;
+	}
+	.third_part a:nth-child(2){
+		background-image: url(../imgaes/wechat.png);
+	}
+	.third_part a:nth-child(2):hover{
+		background-color: #609700;
+	}
+	.third_part a:nth-child(3){
+		background-image: url(../imgaes/weibo.png);
+	}
+	.third_part a:nth-child(3):hover{
+		background-color: #d02200;
+	}
+	.third_part a img{
+		width: 30px;
+	}
+	
+}

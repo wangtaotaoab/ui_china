@@ -1,0 +1,349 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	background-color: #e74c3c;
+}
+
+/* 作品头部 */
+.rank_nav{
+	height: 114px;
+	/* overflow: hidden; */
+}
+.nav_list{
+	float: left;
+}
+.nav_list>li{
+	width: 10px;
+    height: 35px;
+    background: url(../imgaes/fenge.png) no-repeat center;
+    margin: 53px 0 0 0;
+	float: left;
+}
+.nav_list a{
+	display: block;
+	float: left;
+}
+.nav_list li.on{
+	/* background: url(../list/on_bg_02.png) no-repeat center; */
+    background-size: 100% auto;
+	cursor: pointer;
+	width: 148px;
+    height: 114px;
+    margin: 0 15px;
+    text-align: center;
+	position: relative;
+}
+.nav_list li.pos{
+	background: url(../imgaes/on_bg_02.png) no-repeat center;
+}
+.nav_list li.z{
+	background: url(../imgaes/on_bg_02.png) no-repeat center;
+}
+.nav_list li.on img{
+    display: block;
+    margin-left: 44px;
+    width: 60px;
+    height: 40px;
+    margin-top: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav_list li span {
+    display: inline-block;
+    width: 114px;
+    margin-top: 80px;
+    color: white;
+    opacity: 0.5;
+    font-weight: bold;
+	
+}
+
+
+/* 第41期 */
+.periods{
+	width: 200px;
+    text-align: center;
+    color: #ba3122;
+    font-size: 24px;
+	float: right;
+	position: relative;
+}
+.periods>p{
+	display: inline-block;
+    height: 114px;
+    line-height: 114px;
+    cursor: pointer;
+    color: #ba3122;
+    font-size: 24px;
+}
+.periods em{
+	font-style: none;
+	font-size: 48px;
+    font-weight: bold;
+}
+.periods i{
+	color: #ba3122;
+    margin-left: 5px;
+}
+/* 下拉菜单 */
+.periods .down_xiala{
+	position: absolute;
+    width: 220px;
+    max-height: 800px;
+    left: 0;
+    top: 112px;
+    z-index: 50;
+    background-color: #e74a3a;
+    display: none;
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+    /* overflow-y: scroll; */
+    /* padding-bottom: 40px; */
+}
+.down_xiala ul a{
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	background-color: #e74c3c;
+}
+.down_xiala ul a:hover{
+	background-color: #a03c31;
+}
+.down_xiala ul a li p:nth-child(1){
+	color: white;
+}
+.down_xiala ul a li p:nth-child(2){
+	color: wheat;
+}
+/* 主要内容 */
+.rank_con{
+	clear: both;
+	background-color: white;
+	width: 100%;
+	display: none;
+}
+.watch{
+	display: block;
+}
+/* .watch:nth-child */
+.worklist li.cl{
+	/* height: 210px; */
+    padding: 40px 0;
+	overflow: hidden;
+}
+.worklist li.cl:hover{
+	background-color: #edf3f7;
+}
+.worklist .workLeft{
+	width: 94px;
+    height: 145px;
+    text-align: center;
+    line-height: 145px;
+    margin: 35px 84px 0 130px;
+    color: #e74a3a;
+    font-weight: bold;
+    font-size: 20px;
+	float: left;
+}
+.worklist .workLeft img{
+	width: 94px;
+    height: 145px;
+	border: 0;
+    vertical-align: middle;
+}
+
+.worklist .workCenter{
+	width: 280px;
+    height: 210px;
+	float: left;
+}
+.worklist .workCenter img{
+	width: 280px;
+    height: 210px;
+}
+.worklist .workRight{
+	width: 502px;
+    height: 210px;
+	float: right;
+}
+.worklist .workRight .name{
+	line-height: 27px;
+}
+.worklist .workRight .name_title{
+	font-size: 18px;
+    color: #263e54;
+    font-weight: bold;
+    display: inline-block;
+    width: 340px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	display: inline-block;
+}
+.worklist .workRight .name_hot{
+	display: inline-block;
+    width: 140px;
+    font-size: 27px;
+    color: #e74a3a;
+    font-weight: bold;
+}
+.worklist .workRight .name_hot i{
+	color: #e74a3a;
+    font-size: 27px;
+}
+.worklist .workRight .type{
+	width: 100%;
+    color: #a5b5bf;
+    font-size: 12px;
+    margin: 18px 0;
+}
+.worklist .workRight .time{
+	color: #97aab7;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 18px;
+}
+.worklist .workRight .zps{
+	color: #97aab7;
+}
+.worklist .workRight .zps span{
+	display: inline-block;
+    margin-right: 10px;
+}
+.worklist .workRight .per_selft{
+	display: block;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    height: 28px;
+    line-height: 28px;
+}
+.worklist .workRight .per_selft img{
+	width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+/* 人气排行 */
+.personlist .cll{
+	padding: 40px 0;
+	overflow: hidden;
+}
+.personlist .per_left{
+	width: 73px;
+    height: 22px;
+    margin-top: 39px;
+    margin-left: 120px;
+    margin-right: 68px;
+    text-align: center;
+    font-size: 20px;
+    color: #e74a3a;
+    font-weight: bold;
+    line-height: 22px;
+}
+.personlist .cll .workLeft img{
+	width: 73px;
+    height: 22px;
+}
+.personlist .cll .workCenter{
+	width: 100px;
+    height: 100px;
+    margin-right: 40px;
+}
+.personlist .cll .workCenter img{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.personlist .cll .workRight1{
+	width: 650px;
+	float: left;
+}
+.personlist .cll .workRight1 .z{
+	float: left;
+}
+.personlist .workRight1 .pop_name {
+    display: block;
+    margin-bottom: 14px;
+}
+.personlist .workRight1 .pop_name span{
+	font-size: 16px;
+    color: #2c3e50;
+}
+.personlist .workRight1 .pop_name i{
+	color: #3498db;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+	width: 20px;
+	height: 20px;
+	/* background-color: red; */
+}
+.personlist .workRight1 .pop_like{
+	height: 20px;
+    line-height: 20px;
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+.personlist .workRight1 .pop_like span {
+    display: inline-block;
+    margin-right: 20px;
+	font-size: 16px;
+    color: #2c3e50;
+}
+.personlist .workRight1 .pop_like i{
+	display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    padding: 0px 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    background-color: #e74a3a;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.personlist .workRight1 .pop_hot{
+	color: #e74a3a;
+    line-height: 20px;
+    font-size: 12px;
+}
+.personlist .workRight1 .pop_hot span{
+	font-size: 16px;
+    color: #2c3e50;
+	line-height: 20px;
+}
+.personlist .workRight1 .pop_hot img{
+	display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.personlist .workRight1 .rise{
+	font-size: 27px;
+    color: #e74a3a;
+    font-weight: bold;
+	float: right;
+}
+
+
+/* 线条部分 */
+.worklist li.line{
+	width: 920px;
+    height: 1px;
+    margin: 10px auto;
+    /* padding: 10px; */
+    background-color: #f2f2f2;
+}

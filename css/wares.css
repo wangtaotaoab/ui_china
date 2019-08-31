@@ -1,0 +1,169 @@
+.main{
+	background-color: #eff3f5;
+	width: 100%;
+}
+.content_wei{
+	overflow: hidden;
+}
+.main_left{
+	float: left;
+	width: 940px;
+	background-color: white;
+	margin-top: 30px;
+}
+.main_left>div{
+	padding: 0px 20px;
+}
+.ah1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.main_left .mainLeft_top{
+	padding: 20px 20px;
+	/* overflow: hidden; */
+	border-bottom: 1px solid #C0C0C0;
+	position: relative;
+}
+.main_left .mainLeft_top::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 去月球 */
+.main_left .mainLeft_top .mainLeft_left{
+	float: left;
+}
+.mainLeft_top .mainLeftContent{
+	margin-top: 10px;
+}
+.mainLeft_top .mainLeftContent span:nth-child(2){
+	margin-left: 13px;
+}
+.mainLeft_top .mainLeftContent span:nth-child(4){
+	margin-left: 20px;
+	color: #C0C0C0;
+}
+.mainLeft_top .mainLeftContent i{
+	color: #C0C0C0;
+}
+.mainLeft_top .mainLeftButtom{
+	margin-top: 5px;
+	color: #C0C0C0;
+}
+.mainLeft_top .mainLeftButtom span{
+	margin-left: 13px;
+}
+.mainLeft_top .mainLeftButtom span:nth-child(1){
+	margin-left: 0px;
+}
+/* 小火点 */
+.main_left .mainLeft_top .mainLeft_right{
+	float: right;
+	width: 115px;
+	margin-top: 15px;
+	font-size: 33px;
+	color: #C0C0C0;
+}
+/* 星星布条	 */
+.star{
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+
+/* 主体图片部分 */
+.main_left>div:nth-child(2){
+	padding: 0px 20px 30px 20px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.mainLeft_center .pic img{
+	display: block;
+	margin-top: 20px;
+	max-width: 900px;
+}
+/* 图片底下的树叶部分 */
+.leaf{
+	padding: 0px 20px;
+	overflow: hidden;
+}
+.leaf li{
+	display: inline-block;
+	height: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.leaf li a{
+	color: #C0C0C0;
+	text-decoration: none;
+}
+.leaf li a i{
+	font-size: 14px;
+}
+.leaf li:nth-child(11){
+	float: right;
+	color: #C0C0C0;
+	margin-right: 0px;
+}
+.mainLeft_center .work_buttom{
+	padding-top: 20px;
+}
+.work_buttom .share{
+	float: left;
+	margin-top: 10px;
+}
+.work_buttom .share a{
+	margin-right: 10px;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: #34495e;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #CCCCCC;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.work_buttom .share>a:nth-child(1){
+	background-image: url(../imgaes/qq.png);
+	background-color: #CCCCCC;
+}
+.work_buttom .share>a:nth-child(2){
+	background-image: url(../imgaes/wechat.png);
+	background-color: #CCCCCC;
+}
+.work_buttom .share>a:nth-child(3){
+	background-image: url(../imgaes/weibo.png);
+	background-color: #CCCCCC;
+}
+.work_buttom .share>a:nth-child(4){
+	background-image: url(../imgaes/qq.png);
+	background-color: #CCCCCC;
+}
+.work_buttom .share>a:nth-child(5){
+	background-image: url(../imgaes/qq.png);
+	background-color: #CCCCCC;
+}
+/* 赞按钮 */
+.work_zan{
+	cursor: pointer;
+	width: 190px;
+    margin: 20px auto 0;
+}
+.liu{
+	overflow: hidden;
+	width: 190px;
+}
+.liu img{
+	width: 100%;
+}
+
+/* 顶部右边 */
+.main_right{
+	float: right;
+	width: 220px;
+	background-color: white;
+}
